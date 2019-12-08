@@ -10,7 +10,7 @@ if (check_table_exists($conn, $user_db) === FALSE)
 $user_data['user_login'] = 'yorazaye';
 $user_data['user_password'] = 'FD9D94340DBD72C11B37EBB0D2A19B4D05E00FD78E4E2CE8923B9EA3A54E900DF181CFB112A8A73228D1F3551680E2AD9701A4FCFB248FA7FA77B95180628BB2';
 $user_data['user_cookie'] = 'c1d6b72a5a68e5bd323aa6465393c68d';
-insert_user_info($conn, $user_data);
+//insert_user_info($conn, $user_data);
 
 
 
@@ -41,11 +41,11 @@ function    create_table($conn, $table_name)
 
 function    check_table_exists($conn, $table_name)
 {
-	echo (mysqli_query($conn, "select 1 from `$table_name` LIMIT 1"));
-	/*
-	if (!mysqli_query($conn, "select 1 from `$table_name` LIMIT 1"))
-		return (FALSE);
-	*/
+	$tables = mysql_list_tables($GLOBALS["dbuser"]);
+	foreach ($tables as $table)
+	{
+
+	}
 	return (TRUE);
 }
 
