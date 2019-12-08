@@ -1,36 +1,31 @@
-<?php
-include "auth.php";
-session_start();
-if (isset($POST["signin"])){
-	$login = $_POST["login"];
-	$passwd = $_POST["passwd"];
-	if (auth($login, $passwd)){
-		$_SESSION["loggedin"]["login"] = $login;
-		$_SESSION["loggedin"]["passwd"] = $passwd;
-		header("Location: success.php");
-	}
-	else{
-		echo "<script type=\"text/javascript\">
-            alert('Invalid Username or Password!')
-            </script>";
-		header("Location: login.php");
-	}
-}
-?>
-
+<?php include('connectdb.php') ?>
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Login</title>
+  <title>Login</title>
+  <link rel="stylesheet" type="text/css" href="form.css">
 </head>
-	<body>
-		<form method="POST" action="login.php">
-			Username: <br />
-			<input type="text" name="login"><br />
-			Password: <br />
-			<input type="password" name="passwd"><br />
-			<input type="submit" value="Sign In" name="signin"><br /><br />
-			<p>Don't have an account? <a href="register.php">Register.</a></p>
-		</form>
-	</body>
+<body>
+  <div class="header">
+  	<h2>Login</h2>
+  </div>
+	 
+  <form method="post" action="login.php">
+  	<?php include('errors.php'); ?>
+  	<div class="input-group">
+  		<label>Username</label>
+  		<input type="text" name="username" >
+  	</div>
+  	<div class="input-group">
+  		<label>Password</label>
+  		<input type="password" name="pass">
+  	</div>
+  	<div class="input-group">
+  		<button type="submit" class="btn" name="login_user">Login</button>
+  	</div>
+  	<p>
+  		Not yet a member? <a href="register.php">Sign up</a>
+  	</p>
+  </form>
+</body>
 </html>
