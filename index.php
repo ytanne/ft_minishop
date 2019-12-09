@@ -53,7 +53,7 @@
                     <div class="product_image">
                         <img class="product" src="https://tinyurl.com/tyrjo2g" style="width:30%;height:80%;">
                     </div>
-                    <p>Little Tikes 3' Trampoline</p>
+                    <p>Little Tikes 3 Trampoline</p>
                     <input type="button" value="Buy">
                 </div>
                 <div class="product_item">
@@ -61,13 +61,6 @@
                         <img class="product" src="https://tinyurl.com/u8txgq9" style="width:50%;height:80%;">
                     </div>
                     <p>Rally and Roar Foosball Tabletop Game</p>
-                    <input type="button" value="Buy">
-                </div>
-                <div class="product_item">
-                    <div class="product_image">
-                        <img class="product" src="https://tinyurl.com/wc8rmhx" style="width:27%;height:80%;">
-                    </div>
-                    <p>Arcade Classics - Pac-Man Retro Mini Arcade Game</p>
                     <input type="button" value="Buy">
                 </div>
                 <div class="product_item">
@@ -110,6 +103,13 @@
                         <img class="product" src="https://tinyurl.com/wmbdal9" style="width:40%;height:80%;">
                     </div>
                     <p>True Wireless Earbuds Bluetooth 5.0 Headphones</p>
+                    <input type="button" value="Buy">
+                </div>
+                <div class="product_item">
+                    <div class="product_image">
+                        <img class="product" src="https://tinyurl.com/wc8rmhx" style="width:27%;height:80%;">
+                    </div>
+                    <p>Arcade Classics - Pac-Man Retro Mini Arcade Game</p>
                     <input type="button" value="Buy">
                 </div>
             </div>
