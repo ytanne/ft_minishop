@@ -2,7 +2,6 @@
 session_start();
 $dbhost = "remotemysql.com";
 $dbuser = "A8DC7p12Ba";
-$dbpass = "DkajEpXTBK";
 $connection = mysqli_connect($dbhost, $dbuser, $dbpass) or die ("No connection. Died\n");
 $errors = array();
 mysqli_select_db($connection, $GLOBALS["dbuser"]);
