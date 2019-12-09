@@ -1,12 +1,6 @@
 <?php
 
-//include("dbmanipulate.php");
 $good_table = 'good_table';
-
-/*
-if (check_table_exists($connection, $good_table) === FALSE)
-	create_good_table($connection, $good_table);
-*/
 
 function    create_good_table($connection, $good_table)
 {

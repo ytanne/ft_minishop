@@ -70,6 +70,11 @@
 	text-align: center;
 }
 
+.product_item p
+{
+	margin-bottom: -3px;
+}
+
 .product_image
 {
 	height: 60%;
