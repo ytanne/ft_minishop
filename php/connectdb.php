@@ -3,7 +3,6 @@ include ("dbmanipulate.php");
 session_start();
 $GLOBALS["dbhost"] = 'remotemysql.com:3306';
 $GLOBALS["dbuser"] = 'A8DC7p12Ba';
-$GLOBALS["dbpass"] = 'DkajEpXTBK';
 $dbhost = $GLOBALS["dbhost"];
 $dbuser = $GLOBALS["dbuser"];
 $dbpass = $GLOBALS["dbpass"];
