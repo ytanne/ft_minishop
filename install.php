@@ -3,6 +3,7 @@ include("php/dbmanipulate.php");
 
 $GLOBALS["dbhost"] = 'remotemysql.com:3306';
 $GLOBALS["dbuser"] = 'A8DC7p12Ba';
+$GLOBALS["dbpass"] = 'YQzBLMXMiJ';
 
 $user_db = "user_accounts";
 $goods_db = "good_table";
