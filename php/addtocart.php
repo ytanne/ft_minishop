@@ -4,6 +4,7 @@ $cart_db = "cart_table";
 $arguments = $_POST;
 $GLOBALS["dbhost"] = 'remotemysql.com:3306';
 $GLOBALS["dbuser"] = 'A8DC7p12Ba';
+$GLOBALS["dbpass"] = 'DkajEpXTBK';
 
 $user_db = "user_accounts";
 $goods_db = "good_table";

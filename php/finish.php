@@ -3,6 +3,7 @@ session_start();
 include("dbmanipulate.php");
 $GLOBALS["dbhost"] = 'remotemysql.com:3306';
 $GLOBALS["dbuser"] = 'A8DC7p12Ba';
+$GLOBALS["dbpass"] = 'DkajEpXTBK';
 
 $conn = connect_to_db();
 $GLOBALS["connection"] = $conn;
