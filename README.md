@@ -23,4 +23,5 @@ The work that was done in this project:
 <img src="darknet.png" align="center">
 
 Thanks for attention!
+
 <img src="https://media.giphy.com/media/67ThRZlYBvibtdF9JH/giphy.gif" align="center">
