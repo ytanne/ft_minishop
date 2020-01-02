@@ -1,5 +1,9 @@
 <?php
 
+$GLOBALS["dbhost"] = 'remotemysql.com:3306';
+$GLOBALS["dbuser"] = ''; //Insert your database here
+$GLOBALS["dbpass"] = ''; //Insert password heres
+
 function    connect_to_db()
 {
 	$connection = mysqli_connect($GLOBALS["dbhost"], $GLOBALS["dbuser"], $GLOBALS["dbpass"])
