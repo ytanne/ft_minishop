@@ -34,7 +34,7 @@ mysqli_select_db($conn, $GLOBALS["dbuser"]);
 					else
 						echo ("
 							<a href='php/logout.php'>
-								<img id='user_account' src='https://tinyurl.com/rh5cp9n' />
+								<img id='user_account' src='https://tinyurl.com/rh5cp9n'/>
 							</a>
 						");
 				?>
