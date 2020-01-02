@@ -20,8 +20,8 @@ The work that was done in this project:
 4) Simple landing page of e-commerce shop was build.
 
 ### Screenshot of landing page
-<img src="darknet.png" align="center">
+<img src="darknet.png" align="middle">
 
 Thanks for attention!
 
-<img src="https://media.giphy.com/media/67ThRZlYBvibtdF9JH/giphy.gif" align="center">
+<img src="https://media.giphy.com/media/67ThRZlYBvibtdF9JH/giphy.gif" align="middle">
